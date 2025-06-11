@@ -36,3 +36,6 @@ Our primary goal was to **maximize recall on class 0** (non-matches). Missing a 
 These were selected using **Cohen’s d**, **p-values**, and Random Forest feature importance.
 
 ## Project Structure
+Data_wrangling:
+EDA:
+Modeling:
