@@ -36,6 +36,6 @@ Our primary goal was to **maximize recall on class 0** (non-matches). Missing a 
 These were selected using **Cohen’s d**, **p-values**, and Random Forest feature importance.
 
 ## Project Structure
-Data_wrangling:
-EDA:
-Modeling:
+Data_wrangling: https://github.com/ovoarnav/match-maker/blob/main/data_wrangling.ipynb
+EDA: https://github.com/ovoarnav/match-maker/blob/main/eda.ipynb
+Modeling: https://github.com/ovoarnav/match-maker/blob/main/modelling.ipynb
