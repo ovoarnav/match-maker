@@ -1,4 +1,4 @@
-# 💔 Predicting Non-Matches in Speed Dating with Machine Learning
+#  Predicting Non-Matches in Speed Dating with Machine Learning
 
 ## Overview
 Everyone’s been on a bad date — the kind where you know it’s not going anywhere. This project uses machine learning to predict when **two people are unlikely to go on a second date**, based on real speed dating data.
@@ -15,7 +15,7 @@ Instead of matching for compatibility, we’re flipping the problem — we want 
 ## Objective
 Our primary goal was to **maximize recall on class 0** (non-matches). Missing a possible match is okay — but **incorrectly assuming someone will match when they won’t** is what we want to avoid.
 
-## Best Model: 🔥 Logistic Regression (Tuned)
+## Best Model: Logistic Regression (Tuned)
 | Metric     | Class 0 Value |
 |------------|----------------|
 | **Recall** | **89%**        |
@@ -36,6 +36,10 @@ Our primary goal was to **maximize recall on class 0** (non-matches). Missing a 
 These were selected using **Cohen’s d**, **p-values**, and Random Forest feature importance.
 
 ## Project Structure
-Data_wrangling: https://github.com/ovoarnav/match-maker/blob/main/data_wrangling.ipynb
-EDA: https://github.com/ovoarnav/match-maker/blob/main/eda.ipynb
-Modeling: https://github.com/ovoarnav/match-maker/blob/main/modelling.ipynb
+
+| File | Description |
+|------|-------------|
+| [`data_wrangling.ipynb`](https://github.com/ovoarnav/match-maker/blob/main/data_wrangling.ipynb) | Data cleaning and early exploration |
+| [`eda.ipynb`](https://github.com/ovoarnav/match-maker/blob/main/eda.ipynb) | Exploratory Data Analysis, feature distributions, statistical testing |
+| [`Pre-processing Work and Model.ipynb`](https://github.com/ovoarnav/match-maker/blob/main/modelling.ipynb) | Data prep, feature selection, model building & evaluation |
+
